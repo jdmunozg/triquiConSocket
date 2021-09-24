@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Bienvenido Triki Tru XD</h1>
+    <div class="conteiner">
+        <img id="1" onclick="turno(this,1)" alt="">
+        <img id="2" onclick="turno(this,2)" alt="">
+        <img id="3" onclick="turno(this,3)" alt="">
+        <img id="4" onclick="turno(this,4)" alt="">
+        <img id="5" onclick="turno(this,5)" alt="">
+        <img id="6" onclick="turno(this,6)" alt="">
+        <img id="7" onclick="turno(this,7)" alt="">
+        <img id="8" onclick="turno(this,8)" alt="">
+        <img id="9" onclick="turno(this,9)" alt="">
+    </div>
+    <h1 id="ganador"></h1>
+    <button id="reinicio" onclick="location.reload()">Reiniciar juego</button>
+</body>
+
+</html>
